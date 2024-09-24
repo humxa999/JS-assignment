@@ -1,0 +1,120 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    
+}
+
+.main {
+    background-color: rgb(247, 247, 247);
+    height: 100vh;
+}
+h3{
+    font-size: 20px;
+}
+.maths h3 {
+    width: 100%;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.maths {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+.maths button {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+
+.maths button:hover {
+    background-color: yellow;
+    color: rgb(87, 87, 87);
+    /* border: none; */
+    transition: 0.4s ease-in-out;
+    width: 50%;
+    border-radius: 0px;
+}
+.maths button:hover{
+    transform: scale(1.2);
+} 
+
+/* ================================ */
+.data h3 {
+    width: 100%;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+.data button {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+
+.data button:hover {
+    background-color: yellow;
+    color: rgb(87, 87, 87);
+    /* border: none; */
+    transition: 0.4s ease-in-out;
+    width: 50%;
+    /* transform: skew(10deg); */
+    border-radius: 0px;
+    scale: 1.2;
+}
+
+/* ============================
+ */
+ .even h3 {
+    width: 100%;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.even {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+.even button {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+
+.even button:hover {
+    background-color: yellow;
+    color: rgb(87, 87, 87);
+    /* border: none; */
+    transition: 0.4s ease-in-out;
+    width: 50%;
+    /* transform: skew(10deg); */
+    border-radius: 0px;
+    scale: 1.2;
+}
+
+ /* ===================== */
